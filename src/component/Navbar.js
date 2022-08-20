@@ -68,27 +68,27 @@ const Navbar = () => {
                 <div className="icons">
                     <ul className="icons-desktop">
                         <li>
-                            <a>
+                            <Link to="#">
                                 <AiOutlineSearch />
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a>
+                            <Link to="#">
                                 <AiOutlineShoppingCart />
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a>
+                            <Link to="#">
                                 <IoIosPerson />
-                            </a>
+                            </Link>
                         </li>
                     </ul>
 
                     {/* hamburget menu start  */}
                     <div className="hamburger-menu">
-                        <a href="#" onClick={() => setIcons(!Icons)}>
+                        <Link to="#" onClick={() => setIcons(!Icons)}>
                             <GiHamburgerMenu />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </nav>
@@ -106,7 +106,7 @@ const Navbar = () => {
                         <button className="cart-input">
                             <img
                                 src={require("./images/cart.png")}
-                                alt="image"
+                                alt=""
                                 className="cart-input-logo"
                             />
                         </button>
@@ -204,21 +204,21 @@ const Navbar = () => {
                             <button className="btn-icon">
                                 <img
                                     src={require("./images/Paypal.png")}
-                                    alt="image"
+                                    alt=""
                                     className="input1-logo"
                                 />
                             </button>
                             <button className="btn-icon1">
                                 <img
                                     src={require("./images/Visa.png")}
-                                    alt="image"
+                                    alt=""
                                     className="input1-logo"
                                 />
                             </button>
                             <button className="btn-icon1">
                                 <img
                                     src={require("./images/Mastercard.png")}
-                                    alt="image"
+                                    alt=""
                                     className="input1-logo"
                                 />
                             </button>
@@ -226,19 +226,19 @@ const Navbar = () => {
                         <div className="input1">
                             <button className="btn-icon">
                                 <img src={require("./images/Visa.png")}
-                                    alt="image"
+                                    alt=""
                                     className="input1-logo"
                                 />
                             </button>
                             <button className="btn-icon1">
                                 <img src={require("./images/Discover.png")}
-                                    alt="image"
+                                    alt=""
                                     className="input1-logo"
                                 />
                             </button>
                             <button className="btn-icon1">
                                 <img src={require("./images/Visa.png")}
-                                    alt="image"
+                                    alt=""
                                     className="input1-logo"
                                 />
                             </button>
@@ -253,7 +253,7 @@ const Navbar = () => {
                             <button className="btn-icon0" >
                                 <img
                                     src={require("./images/Inpost.png")}
-                                    alt="image"
+                                    alt=""
                                     className="input1-logo"
                                 />
                                 <h5>$20..00</h5>
@@ -261,7 +261,7 @@ const Navbar = () => {
                             <button className="btn-icon2">
                                 <img
                                     src={require("./images/Dpd.png")}
-                                    alt="image"
+                                    alt=""
                                     className="input1-logo"
                                 />
                                 <h5>$20..00</h5>
@@ -271,7 +271,7 @@ const Navbar = () => {
                             <button className="btn-icon0">
                                 <img
                                     src={require("./images/Dhl.png")}
-                                    alt="image"
+                                    alt=""
                                     className="input1-logo"
                                 />
                                 <h5>$20..00</h5>
@@ -279,7 +279,7 @@ const Navbar = () => {
                             <button className="btn-icon2">
                                 <img
                                     src={require("./images/Fedex.png")}
-                                    alt="image"
+                                    alt=""
                                     className="input1-logo"
                                 />
                                 <h5>$20..00</h5>
@@ -301,7 +301,7 @@ const Navbar = () => {
                             <div style={{ "marginTop": "2rem" }}>
                                 <button className="cart-input">
                                     <img src={require("./images/tshirt.png")}
-                                        alt="image"
+                                        alt=""
                                         className="cart-input-logo"
                                     />
                                 </button>
@@ -324,7 +324,7 @@ const Navbar = () => {
                                 <button className="cart-input">
                                     <img
                                         src={require("./images/tshirt1.png")}
-                                        alt="image"
+                                        alt=""
                                         className="cart-input-logo1"
                                     />
                                 </button>
